@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#hostnamectl set-hostname mattscomputer
+yum install -y httpd php php-mysql php-gd vim wget rsync mariadb-server
+systemctl enable mariadb
+systemctl start married
+mysql_secure_installation
+reboot
+	
+	
