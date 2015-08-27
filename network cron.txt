@@ -18,5 +18,4 @@ HOME=/
 # *  *  *  *  * user-name command to be executed
 
 
-05 4 * * * root /usr/sbin/aide --check
-~                                                            
+05 4 * * * mv /test.txt /var/test.txt~                                                            
