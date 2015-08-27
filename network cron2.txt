@@ -18,4 +18,5 @@ HOME=/
 # *  *  *  *  * user-name command to be executed
 
 
-05 4 * * * mv /test.txt /var/test.txt~                                                            
+05 4 * * * mv /test.txt /var/test.txt
+~                                                            
